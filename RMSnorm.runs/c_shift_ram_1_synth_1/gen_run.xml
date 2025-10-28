@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="c_shift_ram_1_synth_1" LaunchPart="xc7z010iclg225-1L" LaunchTime="1761382896">
+<GenRun Id="c_shift_ram_1_synth_1" LaunchPart="xck26-sfvc784-2LV-c" LaunchTime="1761659361">
+  <File Type="VDS-TIMING-PB" Name="c_shift_ram_1_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="c_shift_ram_1_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="c_shift_ram_1.dcp"/>
-  <File Type="RDS-RDS" Name="c_shift_ram_1.vds"/>
-  <File Type="RDS-UTIL" Name="c_shift_ram_1_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="c_shift_ram_1_utilization_synth.pb"/>
-  <File Type="PA-TCL" Name="c_shift_ram_1.tcl"/>
+  <File Type="RDS-UTIL" Name="c_shift_ram_1_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="c_shift_ram_1_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="c_shift_ram_1.vds"/>
   <File Type="REPORTS-TCL" Name="c_shift_ram_1_reports.tcl"/>
+  <File Type="PA-TCL" Name="c_shift_ram_1.tcl"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/c_shift_ram_1" RelGenDir="$PGENDIR/c_shift_ram_1">
     <File Path="$PSRCDIR/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci">
       <FileInfo>
@@ -47,7 +50,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

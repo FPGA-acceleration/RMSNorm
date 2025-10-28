@@ -13,13 +13,13 @@
         "RegLastBit": [ { "value": "true", "resolve_type": "user", "format": "bool", "enabled": false, "usage": "all" } ],
         "CE": [ { "value": "true", "value_src": "user", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "Width": [ { "value": "128", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
-        "Depth": [ { "value": "143", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Depth": [ { "value": "155", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "DefaultDataRadix": [ { "value": "2", "resolve_type": "user", "usage": "all" } ],
-        "DefaultData": [ { "value": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "resolve_type": "user", "usage": "all" } ],
+        "DefaultData": [ { "value": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
         "ReadMifFile": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "MemInitFile": [ { "value": "no_coe_file_loaded", "resolve_type": "user", "enabled": false, "usage": "all" } ],
         "AsyncInitRadix": [ { "value": "2", "resolve_type": "user", "usage": "all" } ],
-        "AsyncInitVal": [ { "value": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "resolve_type": "user", "usage": "all" } ],
+        "AsyncInitVal": [ { "value": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
         "SSET": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "SCLR": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "SINIT": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
@@ -29,10 +29,10 @@
         "CEPriority": [ { "value": "Sync_Overrides_CE", "resolve_type": "user", "enabled": false, "usage": "all" } ]
       },
       "model_parameters": {
-        "C_XDEVICEFAMILY": [ { "value": "zynq", "resolve_type": "generated", "usage": "all" } ],
+        "C_XDEVICEFAMILY": [ { "value": "zynquplus", "resolve_type": "generated", "usage": "all" } ],
         "C_VERBOSITY": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_WIDTH": [ { "value": "128", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_DEPTH": [ { "value": "143", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_DEPTH": [ { "value": "155", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_ADDR_WIDTH": [ { "value": "4", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_SHIFT_TYPE": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_OPT_GOAL": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
@@ -53,17 +53,17 @@
         "C_PARSER_TYPE": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ]
       },
       "project_parameters": {
-        "ARCHITECTURE": [ { "value": "zynq" } ],
-        "BASE_BOARD_PART": [ { "value": "" } ],
+        "ARCHITECTURE": [ { "value": "zynquplus" } ],
+        "BASE_BOARD_PART": [ { "value": "xilinx.com:kv260_som:part0:1.4" } ],
         "BOARD_CONNECTIONS": [ { "value": "" } ],
-        "DEVICE": [ { "value": "xc7z010i" } ],
-        "PACKAGE": [ { "value": "clg225" } ],
+        "DEVICE": [ { "value": "xck26" } ],
+        "PACKAGE": [ { "value": "sfvc784" } ],
         "PREFHDL": [ { "value": "VERILOG" } ],
         "SILICON_REVISION": [ { "value": "" } ],
         "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
-        "SPEEDGRADE": [ { "value": "-1L" } ],
+        "SPEEDGRADE": [ { "value": "-2LV" } ],
         "STATIC_POWER": [ { "value": "" } ],
-        "TEMPERATURE_GRADE": [ { "value": "I" } ]
+        "TEMPERATURE_GRADE": [ { "value": "C" } ]
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],

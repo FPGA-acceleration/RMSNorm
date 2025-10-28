@@ -2,13 +2,13 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
--- Date        : Sun Oct 26 21:09:03 2025
+-- Date        : Tue Oct 28 21:51:18 2025
 -- Host        : Hua running 64-bit Ubuntu 22.04.5 LTS
 -- Command     : write_vhdl -force -mode synth_stub
 --               /home/alhua/VivadoProject/RMSnorm/RMSnorm.gen/sources_1/ip/c_shift_ram_0/c_shift_ram_0_stub.vhdl
 -- Design      : c_shift_ram_0
 -- Purpose     : Stub declaration of top-level module interface
--- Device      : xc7z010iclg225-1L
+-- Device      : xck26-sfvc784-2LV-c
 -- --------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -24,7 +24,7 @@ entity c_shift_ram_0 is
   attribute CHECK_LICENSE_TYPE : string;
   attribute CHECK_LICENSE_TYPE of c_shift_ram_0 : entity is "c_shift_ram_0,c_shift_ram_v12_0_18,{}";
   attribute core_generation_info : string;
-  attribute core_generation_info of c_shift_ram_0 : entity is "c_shift_ram_0,c_shift_ram_v12_0_18,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=c_shift_ram,x_ipVersion=12.0,x_ipCoreRevision=18,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_XDEVICEFAMILY=zynq,C_VERBOSITY=0,C_WIDTH=128,C_DEPTH=143,C_ADDR_WIDTH=4,C_SHIFT_TYPE=0,C_OPT_GOAL=0,C_AINIT_VAL=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,C_SINIT_VAL=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,C_DEFAULT_DATA=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,C_HAS_A=0,C_HAS_CE=1,C_REG_LAST_BIT=1,C_SYNC_PRIORITY=1,C_SYNC_ENABLE=0,C_HAS_SCLR=0,C_HAS_SSET=0,C_HAS_SINIT=0,C_MEM_INIT_FILE=no_coe_file_loaded,C_ELABORATION_DIR=./,C_READ_MIF=0,C_PARSER_TYPE=0}";
+  attribute core_generation_info of c_shift_ram_0 : entity is "c_shift_ram_0,c_shift_ram_v12_0_18,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=c_shift_ram,x_ipVersion=12.0,x_ipCoreRevision=18,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_XDEVICEFAMILY=zynquplus,C_VERBOSITY=0,C_WIDTH=128,C_DEPTH=155,C_ADDR_WIDTH=4,C_SHIFT_TYPE=0,C_OPT_GOAL=0,C_AINIT_VAL=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,C_SINIT_VAL=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,C_DEFAULT_DATA=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,C_HAS_A=0,C_HAS_CE=1,C_REG_LAST_BIT=1,C_SYNC_PRIORITY=1,C_SYNC_ENABLE=0,C_HAS_SCLR=0,C_HAS_SSET=0,C_HAS_SINIT=0,C_MEM_INIT_FILE=no_coe_file_loaded,C_ELABORATION_DIR=./,C_READ_MIF=0,C_PARSER_TYPE=0}";
   attribute downgradeipidentifiedwarnings : string;
   attribute downgradeipidentifiedwarnings of c_shift_ram_0 : entity is "yes";
 end c_shift_ram_0;

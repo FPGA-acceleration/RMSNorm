@@ -122,10 +122,10 @@ ARCHITECTURE c_shift_ram_3_arch OF c_shift_ram_3 IS
 BEGIN
   U0 : c_shift_ram_v12_0_18
     GENERIC MAP (
-      C_XDEVICEFAMILY => "zynq",
+      C_XDEVICEFAMILY => "zynquplus",
       C_VERBOSITY => 0,
       C_WIDTH => 128,
-      C_DEPTH => 36,
+      C_DEPTH => 45,
       C_ADDR_WIDTH => 4,
       C_SHIFT_TYPE => 0,
       C_OPT_GOAL => 0,

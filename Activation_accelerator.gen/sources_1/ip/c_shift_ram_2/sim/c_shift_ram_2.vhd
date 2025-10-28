@@ -122,7 +122,7 @@ ARCHITECTURE c_shift_ram_2_arch OF c_shift_ram_2 IS
 BEGIN
   U0 : c_shift_ram_v12_0_18
     GENERIC MAP (
-      C_XDEVICEFAMILY => "zynq",
+      C_XDEVICEFAMILY => "zynquplus",
       C_VERBOSITY => 0,
       C_WIDTH => 129,
       C_DEPTH => 96,

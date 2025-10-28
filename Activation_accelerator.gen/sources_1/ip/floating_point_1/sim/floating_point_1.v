@@ -101,8 +101,8 @@ input wire m_axis_result_tready;
 output wire [15 : 0] m_axis_result_tdata;
 
   floating_point_v7_1_19 #(
-    .C_XDEVICEFAMILY("zynq"),
-    .C_PART("xc7z010iclg225-1L"),
+    .C_XDEVICEFAMILY("zynquplus"),
+    .C_PART("xck26-sfvc784-2LV-c"),
     .C_HAS_ADD(1),
     .C_HAS_SUBTRACT(0),
     .C_HAS_MULTIPLY(0),

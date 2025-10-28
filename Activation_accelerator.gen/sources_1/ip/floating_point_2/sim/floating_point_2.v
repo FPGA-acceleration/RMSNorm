@@ -96,8 +96,8 @@ output wire [15 : 0] m_axis_result_tdata;
 output wire m_axis_result_tlast;
 
   floating_point_v7_1_19 #(
-    .C_XDEVICEFAMILY("zynq"),
-    .C_PART("xc7z010iclg225-1L"),
+    .C_XDEVICEFAMILY("zynquplus"),
+    .C_PART("xck26-sfvc784-2LV-c"),
     .C_HAS_ADD(0),
     .C_HAS_SUBTRACT(0),
     .C_HAS_MULTIPLY(0),
@@ -131,13 +131,13 @@ output wire m_axis_result_tlast;
     .C_RESULT_WIDTH(16),
     .C_RESULT_FRACTION_WIDTH(8),
     .C_COMPARE_OPERATION(8),
-    .C_LATENCY(19),
+    .C_LATENCY(30),
     .C_OPTIMIZATION(1),
     .C_MULT_USAGE(1),
     .C_BRAM_USAGE(0),
     .C_RATE(1),
-    .C_ACCUM_INPUT_MSB(3),
-    .C_ACCUM_MSB(10),
+    .C_ACCUM_INPUT_MSB(64),
+    .C_ACCUM_MSB(128),
     .C_ACCUM_LSB(-16),
     .C_HAS_UNDERFLOW(0),
     .C_HAS_OVERFLOW(0),

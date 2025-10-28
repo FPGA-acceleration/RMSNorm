@@ -85,7 +85,7 @@ architecture tb of tb_floating_point_2 is
   constant CLOCK_PERIOD : time := 100 ns;
   constant T_HOLD       : time := 10 ns;
   constant T_STROBE     : time := CLOCK_PERIOD - (1 ns);
-  constant DUT_DELAY    : time := CLOCK_PERIOD * 19;
+  constant DUT_DELAY    : time := CLOCK_PERIOD * 30;
 
   -----------------------------------------------------------------------
   -- Testbench types and signals
@@ -244,7 +244,7 @@ architecture tb of tb_floating_point_2 is
     variable result   : std_logic_vector(15 downto 0) := (others => '0');
     variable exp      : integer   := 0;
     variable min_biased_exp: integer := -16 + E_BIAS;
-    variable max_biased_exp: integer := 3 + E_BIAS;
+    variable max_biased_exp: integer := 64 + E_BIAS;
   begin
     -- Handle special cases
     case s is

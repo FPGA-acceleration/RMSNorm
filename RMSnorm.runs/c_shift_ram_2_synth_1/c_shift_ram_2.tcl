@@ -56,12 +56,10 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "c_shift_ram_2_synth_1" START { ROLLUP_AUTO }
-set_msg_config -id {Common 17-41} -limit 10000000
-set_msg_config -id {HDL-1065} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
-create_project -in_memory -part xc7z010iclg225-1L
+create_project -in_memory -part xck26-sfvc784-2LV-c
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
@@ -71,6 +69,7 @@ set_property webtalk.parent_dir /home/alhua/VivadoProject/RMSnorm/RMSnorm.cache/
 set_property parent.project_path /home/alhua/VivadoProject/RMSnorm/RMSnorm.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
+set_property board_part xilinx.com:kv260_som:part0:1.4 [current_project]
 set_property ip_output_repo /home/alhua/VivadoProject/RMSnorm/RMSnorm.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
@@ -99,7 +98,7 @@ if { $cacheID == "" } {
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top c_shift_ram_2 -part xc7z010iclg225-1L -incremental_mode off -mode out_of_context
+synth_design -top c_shift_ram_2 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
 OPTRACE "synth_design" END { }
 OPTRACE "Write IP Cache" START { }
 

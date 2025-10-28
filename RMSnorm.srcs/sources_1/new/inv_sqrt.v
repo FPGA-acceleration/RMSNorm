@@ -43,7 +43,10 @@ wire [15:0]data_newton2;
 wire [15:0]data_newton3;
 wire [15:0]data_newton4;
 
-
+wire S_AXIS_TREADY1;
+wire S_AXIS_TREADY2;
+wire S_AXIS_TREADY3;
+wire S_AXIS_TREADY4;
 
 assign data2 = 16'h5f37 - (S_AXIS_TDATA>>1); 
 
