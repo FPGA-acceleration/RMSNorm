@@ -1,0 +1,9 @@
+verilog xil_defaultlib  \
+"../../../../RMSnorm.gen/sources_1/bd/RMSnorm/ip/RMSnorm_rms_sum_top_0_0/sim/RMSnorm_rms_sum_top_0_0.v" \
+"../../../../RMSnorm.gen/sources_1/bd/RMSnorm/ip/RMSnorm_rms_norm_top_0_0/sim/RMSnorm_rms_norm_top_0_0.v" \
+"../../../../RMSnorm.gen/sources_1/bd/RMSnorm/sim/RMSnorm.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,4 @@
+RMSnorm_rms_sum_top_0_0.v,verilog,xil_defaultlib,../../../../RMSnorm.gen/sources_1/bd/RMSnorm/ip/RMSnorm_rms_sum_top_0_0/sim/RMSnorm_rms_sum_top_0_0.v,
+RMSnorm_rms_norm_top_0_0.v,verilog,xil_defaultlib,../../../../RMSnorm.gen/sources_1/bd/RMSnorm/ip/RMSnorm_rms_norm_top_0_0/sim/RMSnorm_rms_norm_top_0_0.v,
+RMSnorm.v,verilog,xil_defaultlib,../../../../RMSnorm.gen/sources_1/bd/RMSnorm/sim/RMSnorm.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
