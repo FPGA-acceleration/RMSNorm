@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/alhua/VivadoProject/RMSnorm/RMSnorm.gen/sources_1/ip/c_shift_ram_0/sim/c_shift_ram_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'c_shift_ram_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/alhua/VivadoProject/RMSnorm/MinimumSystem.gen/sources_1/ip/c_shift_ram_3/sim/c_shift_ram_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'c_shift_ram_3'

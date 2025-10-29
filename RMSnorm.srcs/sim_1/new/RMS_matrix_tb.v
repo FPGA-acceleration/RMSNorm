@@ -15,7 +15,7 @@ module matrix_tb();
     wire M_AXIS_TVALID;
     reg M_AXIS_TREADY;
     
-    RMSnorm_wrapper wrapper_u(
+    RMSnormv2_wrapper wrapper_u(
         .M_AXIS_0_tdata(M_AXIS_TDATA),
         .M_AXIS_0_tready(M_AXIS_TREADY),
         .M_AXIS_0_tvalid(M_AXIS_TVALID),

@@ -35,6 +35,11 @@ module squaresum_acc(
     );
     
     
+    wire [15:0] tdata_add2last;
+    wire tvalid_add2last;
+    wire tready_add2last;
+    
+    
     add8 add8_u1(
         .aclk(aclk),
         .arstn(arstn),
@@ -79,7 +84,6 @@ module squaresum_acc(
         .m_axis_result_tdata(M_AXIS_TDATA),    // output wire [15 : 0] m_axis_result_tdata
         .m_axis_result_tlast(M_AXIS_TLAST)    // output wire m_axis_result_tlast
     );
-    
     
     
     
