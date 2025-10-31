@@ -1,0 +1,159 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/anderson/vivado/project/RMSNorm/RMSnorm.sim/sim_1/behav/modelsim
+EpSSIS1McXZbJGwXpJp+qKo2raoJUU+nywnhmaf7GuCM=
+Z1 w1761835442
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 16
+R0
+Z4 8../../../../RMSnorm.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd
+Z5 F../../../../RMSnorm.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd
+l0
+Z6 L105 1
+V_MX><oOQLT>30T^8TMdD[3
+!s100 :zT1L?icASKEOJ8G<6U<S1
+Z7 OV;C;2020.1;71
+!i119 1
+!i8a 441599568
+31
+Z8 !s110 1761835444
+!i10b 1
+Z9 !s108 1761835444.000000
+Z10 !s90 -93|-work|xbip_pipe_v3_0_10|../../../../RMSnorm.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd|
+Z11 !s107 ../../../../RMSnorm.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd|
+!i113 1
+Z12 o-93 -work xbip_pipe_v3_0_10
+Z13 tExplicit 1 CvgOpt 0
+nfbcb940
+AN9Amo7yntOR7lTzdlyNDtg==
+Z14 DPx18 xbip_utils_v3_0_14 22 xbip_utils_v3_0_14_pkg 0 22 >db2lGKek?NDk9@dL`zbb1
+Z15 DEx17 xbip_pipe_v3_0_10 21 xbip_pipe_v3_0_10_viv 0 22 f9P_o9[B;[TLYBZ1aJI4g3
+R2
+R3
+Z16 DEx4 work 17 xbip_pipe_v3_0_10 0 22 _MX><oOQLT>30T^8TMdD[3
+!i122 16
+l105
+R6
+Z17 VCcUE[_a`RTfH14oE9Q28z0
+Z18 !s100 :z[IOFKdXB^CSQW:i45a73
+R7
+!i119 1
+!i8a 136976560
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Z19 n7f03058
+PmCs30VEBdOabs6qoXZxInb6t/kk+UgfaOTD2ulQvZYg=
+R2
+R3
+!i122 16
+R1
+R0
+R4
+R5
+l0
+R6
+VOcoSC?0m<5c[DCnVNKnHi3
+!s100 zjiaTjEOz;UXnHYUIlRE61
+R7
+!i119 1
+!i8a 2057345072
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n4be6fd0
+EUFqFFshhAojyVapx0VqKnHMejbiBQ/wqUSpOywpdf5o=
+R1
+R14
+R2
+R3
+!i122 16
+R0
+R4
+R5
+l0
+R6
+Vf9P_o9[B;[TLYBZ1aJI4g3
+!s100 ;Vk;<ZoXz9VgBh`emNQjc3
+R7
+!i119 1
+!i8a 1905554976
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n94bd1b6
+AtfHw2eQa9WRZJtnHKwdkHA==
+R14
+R2
+R3
+Z20 DEx4 work 21 xbip_pipe_v3_0_10_viv 0 22 f9P_o9[B;[TLYBZ1aJI4g3
+!i122 16
+l105
+R6
+Z21 VMY<]ncPY;7eH9NTIY3`hf3
+Z22 !s100 <XgbdN>kPSKDZ7EO;lS9Y0
+R7
+!i119 1
+!i8a 1781442336
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Z23 n7b05a8
+PnWqhCvGIGEa5EX/6W7LcPh3HsHpGxWmp+kDbo94M5NY=
+R2
+R3
+!i122 16
+R1
+R0
+R4
+R5
+l0
+R6
+VRF0@o4HdJ2j4Om=BY7coX3
+!s100 6:AK?901[TAC0LSd1laKH1
+R7
+!i119 1
+!i8a 906994912
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+nb313950

@@ -8,9 +8,9 @@
 # 
 
 if [ -z "$PATH" ]; then
-  PATH=/home/alhua/vivado/Vitis/2024.2/bin:/home/alhua/vivado/Vivado/2024.2/ids_lite/ISE/bin/lin64:/home/alhua/vivado/Vivado/2024.2/bin
+  PATH=/home/anderson/vivado/Vitis/2024.2/bin:/home/anderson/vivado/Vivado/2024.2/ids_lite/ISE/bin/lin64:/home/anderson/vivado/Vivado/2024.2/bin
 else
-  PATH=/home/alhua/vivado/Vitis/2024.2/bin:/home/alhua/vivado/Vivado/2024.2/ids_lite/ISE/bin/lin64:/home/alhua/vivado/Vivado/2024.2/bin:$PATH
+  PATH=/home/anderson/vivado/Vitis/2024.2/bin:/home/anderson/vivado/Vivado/2024.2/ids_lite/ISE/bin/lin64:/home/anderson/vivado/Vivado/2024.2/bin:$PATH
 fi
 export PATH
 
@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/alhua/VivadoProject/RMSnorm/RMSnorm.runs/c_shift_ram_0_synth_1'
+HD_PWD='/home/anderson/vivado/project/RMSNorm/RMSnorm.runs/c_shift_ram_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

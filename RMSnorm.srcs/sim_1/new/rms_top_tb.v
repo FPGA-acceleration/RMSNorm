@@ -28,12 +28,12 @@ module RMS_top_tb();
   initial begin
     // 填数据：示例用 0x4000_4000... 递增
     for (i = 0; i < BEATS; i = i + 1)
-      mem[i] = 128'h3f80_3f80_3f80_3f80_3f80_3f80_3f80_3f80;
+      mem[i] = 128'h4440_3f80_3f80_3f80_3f80_3f80_3f80_3f80;
 
     // 初始化
     aclk          = 0;
     arstn         = 1;
-    S_AXIS_TVALID = 1;
+    S_AXIS_TVALID = 0;
     S_AXIS_TDATA  = 0;
     M_AXIS_TREADY = 1;
 
@@ -42,7 +42,7 @@ module RMS_top_tb();
     repeat(5) @(posedge aclk);
     arstn = 1;
     repeat(5) @(posedge aclk);
-    M_AXIS_TREADY <= 1;     // 下游放通
+    M_AXIS_TREADY = 1;     // 下游放通
     repeat(2) @(posedge aclk);
 
     // 连续发 96 拍
@@ -54,12 +54,12 @@ module RMS_top_tb();
     end
 
     S_AXIS_TVALID <= 0;
-    repeat(250) @(posedge aclk);
+    repeat(500) @(posedge aclk);
     $finish;
   end
 
   // DUT
-RMSnorm_wrapper wrapper (
+RMSnormv2_wrapper wrapper (
     .aclk            (aclk),
     .arstn           (arstn),
     .S_AXIS_0_tdata  (S_AXIS_TDATA),

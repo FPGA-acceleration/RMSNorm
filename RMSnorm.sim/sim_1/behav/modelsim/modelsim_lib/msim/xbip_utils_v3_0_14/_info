@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/anderson/vivado/project/RMSNorm/RMSnorm.sim/sim_1/behav/modelsim
+PAfLVA1sRbjehiN9eymvLXcDQO6lH9R/DezOsUTOhPdA=
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 16
+Z3 w1761835442
+R0
+Z4 8../../../../RMSnorm.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd
+Z5 F../../../../RMSnorm.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd
+l0
+Z6 L105 1
+V>db2lGKek?NDk9@dL`zbb1
+!s100 1FQz;28zJm5[<^7hb3HFg1
+Z7 OV;C;2020.1;71
+!i119 1
+!i8a 1902512176
+31
+b1
+Z8 !s110 1761835443
+!i10b 1
+Z9 !s108 1761835443.000000
+Z10 !s90 -93|-work|xbip_utils_v3_0_14|../../../../RMSnorm.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd|
+Z11 !s107 ../../../../RMSnorm.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd|
+!i113 1
+Z12 o-93 -work xbip_utils_v3_0_14
+Z13 tExplicit 1 CvgOpt 0
+nd4cb467
+BAPWNSgS1XbNtXBb7DdZwmg==
+Z14 DPx4 work 22 xbip_utils_v3_0_14_pkg 0 22 >db2lGKek?NDk9@dL`zbb1
+R1
+R2
+!i122 16
+l0
+R6
+Z15 V7=9@7k]OgA=[Goh^9za<k1
+Z16 !s100 2RW_>eDR^L<YBf5SCef>X0
+R7
+!i119 1
+!i8a 1013427120
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Z17 nbody
+PaX/fkW4psBcpe7vZuucoHg==
+!i122 16
+R3
+R0
+R4
+R5
+l0
+R6
+VS:JO8jTbVV92=Djze29Qn1
+!s100 ko1kj9Y_Gmm^ERCel84Ni2
+R7
+!i119 1
+!i8a 1811412400
+31
+b1
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+na205600
+BfYmwWK01LDmPY1JCSHZewA==
+Z18 DPx4 work 14 xcc_utils_v3_0 0 22 S:JO8jTbVV92=Djze29Qn1
+!i122 16
+l0
+R6
+Z19 VBIRgGN4jXP36aAmjX94Gb2
+Z20 !s100 3DgP@`TVA:MF9S7kFXUo[3
+R7
+!i119 1
+!i8a 528349584
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R17

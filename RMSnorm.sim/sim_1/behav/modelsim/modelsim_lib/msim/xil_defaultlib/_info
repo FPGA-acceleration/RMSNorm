@@ -1,0 +1,1003 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/anderson/vivado/project/RMSNorm/RMSnorm.sim/sim_1/behav/modelsim
+vacc
+Z1 !s10a 1761831466
+Z2 !s110 1761833363
+!i10b 1
+!s100 CUM_G2j20EAQ:?JLQA?3[3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXN`=Di>hanQfBnZie?gA61
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z5 w1761831466
+8../../../../RMSnorm.srcs/sources_1/new/acc.v
+F../../../../RMSnorm.srcs/sources_1/new/acc.v
+!i122 14
+L0 22 71
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1761833363.000000
+Z8 !s107 ../../../../RMSnorm.gen/sources_1/ip/bf_add/sim/bf_add.v|../../../../MinimumSystem.gen/sources_1/ip/bf_sub/sim/bf_sub.v|../../../../RMSnorm.srcs/sources_1/new/sum_top.v|../../../../RMSnorm.srcs/sources_1/new/sum_align.v|../../../../RMSnorm.srcs/sources_1/new/parallel_mean_square.v|../../../../RMSnorm.srcs/sources_1/new/gen_tlast.v|../../../../RMSnorm.srcs/sources_1/new/add8.v|../../../../RMSnorm.srcs/sources_1/new/accumulator.v|../../../../RMSnorm.srcs/sources_1/new/acc_fifo.v|../../../../RMSnorm.srcs/sources_1/new/acc.v|../../../../MinimumSystem.gen/sources_1/ip/bf_mul/sim/bf_mul.v|
+Z9 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../MinimumSystem.gen/sources_1/ip/bf_mul/sim/bf_mul.v|../../../../RMSnorm.srcs/sources_1/new/acc.v|../../../../RMSnorm.srcs/sources_1/new/acc_fifo.v|../../../../RMSnorm.srcs/sources_1/new/accumulator.v|../../../../RMSnorm.srcs/sources_1/new/add8.v|../../../../RMSnorm.srcs/sources_1/new/gen_tlast.v|../../../../RMSnorm.srcs/sources_1/new/parallel_mean_square.v|../../../../RMSnorm.srcs/sources_1/new/sum_align.v|../../../../RMSnorm.srcs/sources_1/new/sum_top.v|../../../../MinimumSystem.gen/sources_1/ip/bf_sub/sim/bf_sub.v|../../../../RMSnorm.gen/sources_1/ip/bf_add/sim/bf_add.v|
+!i113 1
+Z10 o-mfcu -work xil_defaultlib
+Z11 tCvgOpt 0
+vacc_fifo
+R1
+R2
+!i10b 1
+!s100 hj=MzK30f;bZ20<ZOJ[N72
+R3
+Inz1gQ;hh2C:SX=jOnhYHS1
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/acc_fifo.v
+F../../../../RMSnorm.srcs/sources_1/new/acc_fifo.v
+!i122 14
+Z12 L0 23 66
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vaccumulator
+R1
+R2
+!i10b 1
+!s100 5=[h^;B0^019P9?PmE2=n0
+R3
+Ii8hQgK^@VgQEBMa9725lf0
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/accumulator.v
+F../../../../RMSnorm.srcs/sources_1/new/accumulator.v
+!i122 14
+Z13 L0 23 48
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vadd8
+R1
+Z14 !s110 1761831702
+!i10b 1
+!s100 RX=a;Gf5D[75<Ha:ImIVT1
+R3
+I4gI[Bf@fh6c9`I9iF^??k3
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/add8.v
+F../../../../RMSnorm.srcs/sources_1/new/add8.v
+!i122 1
+L0 1 93
+R6
+r1
+!s85 0
+31
+Z15 !s108 1761831702.000000
+Z16 !s107 ../../../../RMSnorm.gen/sources_1/ip/bf_add/sim/bf_add.v|../../../../MinimumSystem.gen/sources_1/ip/bf_sub/sim/bf_sub.v|../../../../RMSnorm.srcs/sources_1/new/rms_sum_topv2.v|../../../../RMSnorm.srcs/sources_1/new/sum_keep.v|../../../../RMSnorm.srcs/sources_1/new/sum_align.v|../../../../RMSnorm.srcs/sources_1/new/squaresum_acc.v|../../../../RMSnorm.srcs/sources_1/new/parallel_squarev2.v|../../../../RMSnorm.srcs/sources_1/new/gen_tlast.v|../../../../RMSnorm.srcs/sources_1/new/add8.v|../../../../Activation_accelerator.gen/sources_1/ip/floating_point_1/sim/floating_point_1.v|../../../../Activation_accelerator.gen/sources_1/ip/floating_point_2/sim/floating_point_2.v|../../../../MinimumSystem.gen/sources_1/ip/bf_mul/sim/bf_mul.v|
+Z17 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../MinimumSystem.gen/sources_1/ip/bf_mul/sim/bf_mul.v|../../../../Activation_accelerator.gen/sources_1/ip/floating_point_2/sim/floating_point_2.v|../../../../Activation_accelerator.gen/sources_1/ip/floating_point_1/sim/floating_point_1.v|../../../../RMSnorm.srcs/sources_1/new/add8.v|../../../../RMSnorm.srcs/sources_1/new/gen_tlast.v|../../../../RMSnorm.srcs/sources_1/new/parallel_squarev2.v|../../../../RMSnorm.srcs/sources_1/new/squaresum_acc.v|../../../../RMSnorm.srcs/sources_1/new/sum_align.v|../../../../RMSnorm.srcs/sources_1/new/sum_keep.v|../../../../RMSnorm.srcs/sources_1/new/rms_sum_topv2.v|../../../../MinimumSystem.gen/sources_1/ip/bf_sub/sim/bf_sub.v|../../../../RMSnorm.gen/sources_1/ip/bf_add/sim/bf_add.v|
+!i113 1
+R10
+R11
+vbf_add
+Z18 !s10a 1761831465
+R14
+!i10b 1
+!s100 GVID]P1OIj0N1hMTiejDg2
+R3
+IHlb2AAlNeGkI@G:n7jKcg1
+R4
+R0
+Z19 w1761831465
+8../../../../RMSnorm.gen/sources_1/ip/bf_add/sim/bf_add.v
+F../../../../RMSnorm.gen/sources_1/ip/bf_add/sim/bf_add.v
+!i122 1
+Z20 L0 56 156
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+R11
+vbf_fifo
+R1
+R14
+!i10b 1
+!s100 6]T3cd?IkfY]EW>@J@Ic]0
+R3
+I0l3J_3d1IHN@WRD;3m`C>0
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/bf_fifo.v
+F../../../../RMSnorm.srcs/sources_1/new/bf_fifo.v
+!i122 3
+L0 21 74
+R6
+r1
+!s85 0
+31
+R15
+Z21 !s107 ../../../../RMSnorm.srcs/sim_1/new/RMS_matrix_tb.v|../../../../RMSnorm.gen/sources_1/bd/RMSnormv2/hdl/RMSnormv2_wrapper.v|../../../../RMSnorm.ip_user_files/bd/RMSnormv2/sim/RMSnormv2.v|../../../../RMSnorm.ip_user_files/bd/RMSnormv2/ip/RMSnormv2_rms_norm_top_0_0/sim/RMSnormv2_rms_norm_top_0_0.v|../../../../RMSnorm.ip_user_files/bd/RMSnormv2/ip/RMSnormv2_rms_sum_topv2_0_0/sim/RMSnormv2_rms_sum_topv2_0_0.v|../../../../RMSnorm.srcs/sources_1/new/rms_norm_top.v|../../../../RMSnorm.srcs/sources_1/new/inv_sqrt_top.v|../../../../RMSnorm.srcs/sources_1/new/inv_sqrt.v|../../../../RMSnorm.srcs/sources_1/new/inv_fifo.v|../../../../RMSnorm.srcs/sources_1/new/bf_fifo.v|
+Z22 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../RMSnorm.srcs/sources_1/new/bf_fifo.v|../../../../RMSnorm.srcs/sources_1/new/inv_fifo.v|../../../../RMSnorm.srcs/sources_1/new/inv_sqrt.v|../../../../RMSnorm.srcs/sources_1/new/inv_sqrt_top.v|../../../../RMSnorm.srcs/sources_1/new/rms_norm_top.v|../../../../RMSnorm.ip_user_files/bd/RMSnormv2/ip/RMSnormv2_rms_sum_topv2_0_0/sim/RMSnormv2_rms_sum_topv2_0_0.v|../../../../RMSnorm.ip_user_files/bd/RMSnormv2/ip/RMSnormv2_rms_norm_top_0_0/sim/RMSnormv2_rms_norm_top_0_0.v|../../../../RMSnorm.ip_user_files/bd/RMSnormv2/sim/RMSnormv2.v|../../../../RMSnorm.gen/sources_1/bd/RMSnormv2/hdl/RMSnormv2_wrapper.v|../../../../RMSnorm.srcs/sim_1/new/RMS_matrix_tb.v|
+!i113 1
+R10
+R11
+vbf_mul
+R18
+R14
+!i10b 1
+!s100 EZS0c6iA=hE0:YgSa23Ua1
+R3
+I[mRl2cU7Q2OI55XD5khcW3
+R4
+R0
+R19
+8../../../../MinimumSystem.gen/sources_1/ip/bf_mul/sim/bf_mul.v
+F../../../../MinimumSystem.gen/sources_1/ip/bf_mul/sim/bf_mul.v
+!i122 1
+R20
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+R11
+vbf_sub
+R18
+R14
+!i10b 1
+!s100 6UJdh3`eRaBo?YD=XAIz>0
+R3
+I=g=FE@06]CMVD<c[=QSSo2
+R4
+R0
+R19
+8../../../../MinimumSystem.gen/sources_1/ip/bf_sub/sim/bf_sub.v
+F../../../../MinimumSystem.gen/sources_1/ip/bf_sub/sim/bf_sub.v
+!i122 1
+R20
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+R11
+Ec_shift_ram_0
+Z23 w1761835259
+Z24 DPx20 c_shift_ram_v12_0_18 29 c_shift_ram_v12_0_18_viv_comp 0 22 d4gd^8@T;X6IYJM:`>LJS1
+Z25 DPx18 xbip_utils_v3_0_14 22 xbip_utils_v3_0_14_pkg 0 22 >db2lGKek?NDk9@dL`zbb1
+Z26 DEx20 c_shift_ram_v12_0_18 20 c_shift_ram_v12_0_18 0 22 ;8lN^XLVLKmhK=cVz2?6h2
+Z27 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z28 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z29 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 64
+R0
+Z30 8../../../../RMSnorm.gen/sources_1/ip/c_shift_ram_0/sim/c_shift_ram_0.vhd
+Z31 F../../../../RMSnorm.gen/sources_1/ip/c_shift_ram_0/sim/c_shift_ram_0.vhd
+l0
+Z32 L59 1
+VJhjW;KkhG^UlLnCeR;[843
+!s100 XaT;Wo0e@?6fk4PRZMgQN3
+Z33 OV;C;2020.1;71
+31
+Z34 !s110 1761835444
+!i10b 1
+Z35 !s108 1761835444.000000
+Z36 !s90 -93|-work|xil_defaultlib|../../../../RMSnorm.gen/sources_1/ip/c_shift_ram_0/sim/c_shift_ram_0.vhd|
+Z37 !s107 ../../../../RMSnorm.gen/sources_1/ip/c_shift_ram_0/sim/c_shift_ram_0.vhd|
+!i113 1
+Z38 o-93 -work xil_defaultlib
+Z39 tExplicit 1 CvgOpt 0
+Ac_shift_ram_0_arch
+R24
+R25
+R27
+R28
+R29
+DEx4 work 13 c_shift_ram_0 0 22 JhjW;KkhG^UlLnCeR;[843
+!i122 64
+l122
+Z40 L68 91
+VGIRkg8JP3b<JZ6?amV?oh2
+!s100 IT8Vlb>LR9ZMfZ5hNHR>a3
+R33
+31
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R38
+R39
+Ec_shift_ram_1
+R19
+R24
+R25
+R26
+R27
+R28
+R29
+!i122 19
+R0
+Z41 8../../../../Activation_accelerator.gen/sources_1/ip/c_shift_ram_1/sim/c_shift_ram_1.vhd
+Z42 F../../../../Activation_accelerator.gen/sources_1/ip/c_shift_ram_1/sim/c_shift_ram_1.vhd
+l0
+R32
+VLn=]18U21WoIFB=c@h1O80
+!s100 IRUkSH6E3VYW8CDnLZOJ;1
+R33
+31
+Z43 !s110 1761833497
+!i10b 1
+Z44 !s108 1761833497.000000
+Z45 !s90 -93|-work|xil_defaultlib|../../../../Activation_accelerator.gen/sources_1/ip/c_shift_ram_1/sim/c_shift_ram_1.vhd|
+Z46 !s107 ../../../../Activation_accelerator.gen/sources_1/ip/c_shift_ram_1/sim/c_shift_ram_1.vhd|
+!i113 1
+R38
+R39
+Ac_shift_ram_1_arch
+R24
+R25
+R27
+R28
+R29
+DEx4 work 13 c_shift_ram_1 0 22 Ln=]18U21WoIFB=c@h1O80
+!i122 19
+l118
+L67 88
+VolU7F>Pea@En@VB4<;M6V0
+!s100 2h9hC4hAnEM7LGWILjQMQ2
+R33
+31
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R38
+R39
+Ec_shift_ram_2
+R19
+R24
+R25
+R26
+R27
+R28
+R29
+!i122 18
+R0
+Z47 8../../../../Activation_accelerator.gen/sources_1/ip/c_shift_ram_2/sim/c_shift_ram_2.vhd
+Z48 F../../../../Activation_accelerator.gen/sources_1/ip/c_shift_ram_2/sim/c_shift_ram_2.vhd
+l0
+R32
+VQHY^]D:JILOmafiAGemWM1
+!s100 gncLoL^[5LKj^O@H[YF<=1
+R33
+31
+Z49 !s110 1761833493
+!i10b 1
+Z50 !s108 1761833493.000000
+Z51 !s90 -93|-work|xil_defaultlib|../../../../RMSnorm.gen/sources_1/ip/c_shift_ram_0/sim/c_shift_ram_0.vhd|../../../../Activation_accelerator.gen/sources_1/ip/c_shift_ram_2/sim/c_shift_ram_2.vhd|
+Z52 !s107 ../../../../Activation_accelerator.gen/sources_1/ip/c_shift_ram_2/sim/c_shift_ram_2.vhd|../../../../RMSnorm.gen/sources_1/ip/c_shift_ram_0/sim/c_shift_ram_0.vhd|
+!i113 1
+R38
+R39
+Ac_shift_ram_2_arch
+R24
+R25
+R27
+R28
+R29
+DEx4 work 13 c_shift_ram_2 0 22 QHY^]D:JILOmafiAGemWM1
+!i122 18
+l122
+R40
+VlLQEF<amYQb3l>M4a9?Fk0
+!s100 faMDChmn8DBVHINXKac0?3
+R33
+31
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R38
+R39
+Ec_shift_ram_3
+R19
+R24
+R25
+R26
+R27
+R28
+R29
+!i122 65
+R0
+Z53 8../../../../MinimumSystem.gen/sources_1/ip/c_shift_ram_3/sim/c_shift_ram_3.vhd
+Z54 F../../../../MinimumSystem.gen/sources_1/ip/c_shift_ram_3/sim/c_shift_ram_3.vhd
+l0
+R32
+Vcf^@^AzMBl8lW6`@A;Vm82
+!s100 eTSEJ?feEEVOnUnF8G22Q0
+R33
+31
+Z55 !s110 1761835448
+!i10b 1
+Z56 !s108 1761835448.000000
+Z57 !s90 -93|-work|xil_defaultlib|../../../../MinimumSystem.gen/sources_1/ip/c_shift_ram_3/sim/c_shift_ram_3.vhd|
+Z58 !s107 ../../../../MinimumSystem.gen/sources_1/ip/c_shift_ram_3/sim/c_shift_ram_3.vhd|
+!i113 1
+R38
+R39
+Ac_shift_ram_3_arch
+R24
+R25
+R27
+R28
+R29
+DEx4 work 13 c_shift_ram_3 0 22 cf^@^AzMBl8lW6`@A;Vm82
+!i122 65
+l122
+R40
+V=7J_i8H=hFL6cZg2gbcf>0
+!s100 Zh[NQD6f_mz<G<@E0h]_A0
+R33
+31
+R55
+!i10b 1
+R56
+R57
+R58
+!i113 1
+R38
+R39
+vfloating_point_1
+R18
+R14
+!i10b 1
+!s100 QY?^W[j:GMe8JK_CNm_n32
+R3
+Io2P:46lZ]^:00hlV_a4hl3
+R4
+R0
+R19
+8../../../../Activation_accelerator.gen/sources_1/ip/floating_point_1/sim/floating_point_1.v
+F../../../../Activation_accelerator.gen/sources_1/ip/floating_point_1/sim/floating_point_1.v
+!i122 1
+R20
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+R11
+vfloating_point_2
+R18
+R14
+!i10b 1
+!s100 CM=^DEPg1^=Q5;R@>FE323
+R3
+IXhh^6ajUF;LXBFREkbHk;3
+R4
+R0
+R19
+8../../../../Activation_accelerator.gen/sources_1/ip/floating_point_2/sim/floating_point_2.v
+F../../../../Activation_accelerator.gen/sources_1/ip/floating_point_2/sim/floating_point_2.v
+!i122 1
+L0 56 151
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+R11
+vgen_tlast
+R1
+R14
+!i10b 1
+!s100 bo^0KG316NIGX]TVOVcg;3
+R3
+IRXO24;DYASz4H`FDFSc6<3
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/gen_tlast.v
+F../../../../RMSnorm.srcs/sources_1/new/gen_tlast.v
+!i122 1
+L0 23 80
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+R11
+vglbl
+R55
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+R3
+I4bLzLG4W_XENbhSMOhTRE2
+R4
+R0
+w1724786425
+8glbl.v
+Fglbl.v
+!i122 67
+L0 6 78
+R6
+r1
+!s85 0
+31
+R56
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 1
+o-work xil_defaultlib
+R11
+vinv_fifo
+R1
+R14
+!i10b 1
+!s100 =?bn3nLN`0iCkXnLl^7Iz2
+R3
+I7RBnG[RiaAYP=K:DNflI41
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/inv_fifo.v
+F../../../../RMSnorm.srcs/sources_1/new/inv_fifo.v
+!i122 3
+R13
+R6
+r1
+!s85 0
+31
+R15
+R21
+R22
+!i113 1
+R10
+R11
+vinv_sqrt
+R1
+R14
+!i10b 1
+!s100 Sz6G:ZWGGC`@504?JkZTL2
+R3
+IN`^9Y]1OfRz^lm1DCQ<3O3
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/inv_sqrt.v
+F../../../../RMSnorm.srcs/sources_1/new/inv_sqrt.v
+!i122 3
+L0 23 131
+R6
+r1
+!s85 0
+31
+R15
+R21
+R22
+!i113 1
+R10
+R11
+vinv_sqrt_top
+R1
+R14
+!i10b 1
+!s100 SUj7=WbXh5g0YKoM<><e;2
+R3
+IK3@<4Qm<eFkgZe;nGcog`0
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/inv_sqrt_top.v
+F../../../../RMSnorm.srcs/sources_1/new/inv_sqrt_top.v
+!i122 3
+L0 24 99
+R6
+r1
+!s85 0
+31
+R15
+R21
+R22
+!i113 1
+R10
+R11
+vmatrix_tb
+R55
+!i10b 1
+!s100 :bnY3B;P^9T3nQUZ7[11i3
+R3
+IoVXamH`i>XCh=f]L<?h]g1
+R4
+R0
+w1761835435
+8../../../../RMSnorm.srcs/sim_1/new/RMS_matrix_tb.v
+F../../../../RMSnorm.srcs/sim_1/new/RMS_matrix_tb.v
+!i122 66
+L0 3 153
+R6
+r1
+!s85 0
+31
+R56
+R21
+R22
+!i113 1
+R10
+R11
+vparallel_mean_square
+R1
+R2
+!i10b 1
+!s100 ENDX5HR7aVfKeU0M`K^T61
+R3
+I4LK1ZV2Y1]ejzA2<Uzd6^2
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/parallel_mean_square.v
+F../../../../RMSnorm.srcs/sources_1/new/parallel_mean_square.v
+!i122 14
+L0 26 83
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vparallel_squarev2
+R1
+R14
+!i10b 1
+!s100 I357EgSeCQzQ[Bf6BeP1n1
+R3
+IHFb2YX<Zfn8OClgK6WUZB0
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/parallel_squarev2.v
+F../../../../RMSnorm.srcs/sources_1/new/parallel_squarev2.v
+!i122 1
+L0 23 53
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+R11
+vrms_norm_top
+R1
+R14
+!i10b 1
+!s100 hiKa_64d[NMLAAXZNX]ae1
+R3
+IWiEHoS46_9@KzX5SS6aRf1
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/rms_norm_top.v
+F../../../../RMSnorm.srcs/sources_1/new/rms_norm_top.v
+!i122 3
+R12
+R6
+r1
+!s85 0
+31
+R15
+R21
+R22
+!i113 1
+R10
+R11
+vrms_sum_top
+R1
+R2
+!i10b 1
+!s100 <SYBiO7PldKNmQeHiDfmf0
+R3
+IQMfkRB8X`YR[EKBiMM;0H3
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/sum_top.v
+F../../../../RMSnorm.srcs/sources_1/new/sum_top.v
+!i122 14
+L0 24 86
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vrms_sum_topv2
+R1
+R14
+!i10b 1
+!s100 ;EG?miQEI^16KSoakE5jf3
+R3
+In4nBK06^Iik4GQ_laD@VI3
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/rms_sum_topv2.v
+F../../../../RMSnorm.srcs/sources_1/new/rms_sum_topv2.v
+!i122 1
+L0 27 133
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+R11
+vRMS_top_tb
+!s10a 1761834814
+!s110 1761834824
+!i10b 1
+!s100 WF:bAdIS1D18ggY<X_fZ63
+R3
+IBfN;?`7zGGoE[N`6l?`J62
+R4
+R0
+w1761834814
+8../../../../RMSnorm.srcs/sim_1/new/rms_top_tb.v
+F../../../../RMSnorm.srcs/sim_1/new/rms_top_tb.v
+!i122 54
+L0 2 72
+R6
+r1
+!s85 0
+31
+!s108 1761834824.000000
+!s107 ../../../../RMSnorm.srcs/sim_1/new/rms_top_tb.v|../../../../RMSnorm.gen/sources_1/bd/RMSnormv2/hdl/RMSnormv2_wrapper.v|../../../../RMSnorm.ip_user_files/bd/RMSnormv2/sim/RMSnormv2.v|../../../../RMSnorm.ip_user_files/bd/RMSnormv2/ip/RMSnormv2_rms_norm_top_0_0/sim/RMSnormv2_rms_norm_top_0_0.v|../../../../RMSnorm.ip_user_files/bd/RMSnormv2/ip/RMSnormv2_rms_sum_topv2_0_0/sim/RMSnormv2_rms_sum_topv2_0_0.v|../../../../RMSnorm.srcs/sources_1/new/rms_norm_top.v|../../../../RMSnorm.srcs/sources_1/new/inv_sqrt_top.v|../../../../RMSnorm.srcs/sources_1/new/inv_sqrt.v|../../../../RMSnorm.srcs/sources_1/new/inv_fifo.v|../../../../RMSnorm.srcs/sources_1/new/bf_fifo.v|
+!s90 -incr|-mfcu|-work|xil_defaultlib|../../../../RMSnorm.srcs/sources_1/new/bf_fifo.v|../../../../RMSnorm.srcs/sources_1/new/inv_fifo.v|../../../../RMSnorm.srcs/sources_1/new/inv_sqrt.v|../../../../RMSnorm.srcs/sources_1/new/inv_sqrt_top.v|../../../../RMSnorm.srcs/sources_1/new/rms_norm_top.v|../../../../RMSnorm.ip_user_files/bd/RMSnormv2/ip/RMSnormv2_rms_sum_topv2_0_0/sim/RMSnormv2_rms_sum_topv2_0_0.v|../../../../RMSnorm.ip_user_files/bd/RMSnormv2/ip/RMSnormv2_rms_norm_top_0_0/sim/RMSnormv2_rms_norm_top_0_0.v|../../../../RMSnorm.ip_user_files/bd/RMSnormv2/sim/RMSnormv2.v|../../../../RMSnorm.gen/sources_1/bd/RMSnormv2/hdl/RMSnormv2_wrapper.v|../../../../RMSnorm.srcs/sim_1/new/rms_top_tb.v|
+!i113 1
+R10
+R11
+n@r@m@s_top_tb
+vRMSnorm
+R18
+R2
+!i10b 1
+!s100 ;dM2?k7Eg?@[LPWngV8oo0
+R3
+I802@momKXcO;<g7GRjF2@2
+R4
+R0
+R19
+8../../../../RMSnorm.ip_user_files/bd/RMSnorm/sim/RMSnorm.v
+F../../../../RMSnorm.ip_user_files/bd/RMSnorm/sim/RMSnorm.v
+!i122 16
+Z59 L0 14 49
+R6
+r1
+!s85 0
+31
+R7
+Z60 !s107 ../../../../RMSnorm.srcs/sim_1/new/rms_top_tb.v|../../../../RMSnorm.gen/sources_1/bd/RMSnorm/hdl/RMSnorm_wrapper.v|../../../../RMSnorm.ip_user_files/bd/RMSnorm/sim/RMSnorm.v|../../../../RMSnorm.ip_user_files/bd/RMSnorm/ip/RMSnorm_rms_norm_top_0_0/sim/RMSnorm_rms_norm_top_0_0.v|../../../../RMSnorm.ip_user_files/bd/RMSnorm/ip/RMSnorm_rms_sum_top_0_0/sim/RMSnorm_rms_sum_top_0_0.v|../../../../RMSnorm.srcs/sources_1/new/rms_norm_top.v|../../../../RMSnorm.srcs/sources_1/new/inv_sqrt_top.v|../../../../RMSnorm.srcs/sources_1/new/inv_sqrt.v|../../../../RMSnorm.srcs/sources_1/new/inv_fifo.v|../../../../RMSnorm.srcs/sources_1/new/bf_fifo.v|
+Z61 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../RMSnorm.srcs/sources_1/new/bf_fifo.v|../../../../RMSnorm.srcs/sources_1/new/inv_fifo.v|../../../../RMSnorm.srcs/sources_1/new/inv_sqrt.v|../../../../RMSnorm.srcs/sources_1/new/inv_sqrt_top.v|../../../../RMSnorm.srcs/sources_1/new/rms_norm_top.v|../../../../RMSnorm.ip_user_files/bd/RMSnorm/ip/RMSnorm_rms_sum_top_0_0/sim/RMSnorm_rms_sum_top_0_0.v|../../../../RMSnorm.ip_user_files/bd/RMSnorm/ip/RMSnorm_rms_norm_top_0_0/sim/RMSnorm_rms_norm_top_0_0.v|../../../../RMSnorm.ip_user_files/bd/RMSnorm/sim/RMSnorm.v|../../../../RMSnorm.gen/sources_1/bd/RMSnorm/hdl/RMSnorm_wrapper.v|../../../../RMSnorm.srcs/sim_1/new/rms_top_tb.v|
+!i113 1
+R10
+R11
+n@r@m@snorm
+vRMSnorm_rms_norm_top_0_0
+R18
+R2
+!i10b 1
+!s100 XRALHzmk42@XZnBz71bHR1
+R3
+ITceKzjF<dT2<O2Jo<MEdH2
+R4
+R0
+R19
+8../../../../RMSnorm.ip_user_files/bd/RMSnorm/ip/RMSnorm_rms_norm_top_0_0/sim/RMSnorm_rms_norm_top_0_0.v
+F../../../../RMSnorm.ip_user_files/bd/RMSnorm/ip/RMSnorm_rms_norm_top_0_0/sim/RMSnorm_rms_norm_top_0_0.v
+!i122 16
+Z62 L0 57 44
+R6
+r1
+!s85 0
+31
+R7
+R60
+R61
+!i113 1
+R10
+R11
+n@r@m@snorm_rms_norm_top_0_0
+vRMSnorm_rms_sum_top_0_0
+R18
+R2
+!i10b 1
+!s100 CZK=?aJYYdo7NUYTgNH=P0
+R3
+IFj1[OJ[>T?o9oi]?5;nlV2
+R4
+R0
+R19
+8../../../../RMSnorm.ip_user_files/bd/RMSnorm/ip/RMSnorm_rms_sum_top_0_0/sim/RMSnorm_rms_sum_top_0_0.v
+F../../../../RMSnorm.ip_user_files/bd/RMSnorm/ip/RMSnorm_rms_sum_top_0_0/sim/RMSnorm_rms_sum_top_0_0.v
+!i122 16
+L0 57 48
+R6
+r1
+!s85 0
+31
+R7
+R60
+R61
+!i113 1
+R10
+R11
+n@r@m@snorm_rms_sum_top_0_0
+vRMSnorm_wrapper
+R18
+R2
+!i10b 1
+!s100 ^EZ=2Z_F<l]41zzZH>Bl`0
+R3
+I9R]Gc8>1AZRc`XLCN:LgA0
+R4
+R0
+R19
+8../../../../RMSnorm.gen/sources_1/bd/RMSnorm/hdl/RMSnorm_wrapper.v
+F../../../../RMSnorm.gen/sources_1/bd/RMSnorm/hdl/RMSnorm_wrapper.v
+!i122 16
+Z63 L0 13 37
+R6
+r1
+!s85 0
+31
+R7
+R60
+R61
+!i113 1
+R10
+R11
+n@r@m@snorm_wrapper
+vRMSnormv2
+R18
+R14
+!i10b 1
+!s100 @ODYe^U5[MScABJ3ed6n=2
+R3
+I^`mIVB0fNJcU1T1M]X81d1
+R4
+R0
+R19
+8../../../../RMSnorm.ip_user_files/bd/RMSnormv2/sim/RMSnormv2.v
+F../../../../RMSnorm.ip_user_files/bd/RMSnormv2/sim/RMSnormv2.v
+!i122 3
+R59
+R6
+r1
+!s85 0
+31
+R15
+R21
+R22
+!i113 1
+R10
+R11
+n@r@m@snormv2
+vRMSnormv2_rms_norm_top_0_0
+R18
+R14
+!i10b 1
+!s100 oNeOC41II`9oWknF^QaRY0
+R3
+I7SP7_I>CAV`aViL9]O8C`2
+R4
+R0
+R19
+8../../../../RMSnorm.ip_user_files/bd/RMSnormv2/ip/RMSnormv2_rms_norm_top_0_0/sim/RMSnormv2_rms_norm_top_0_0.v
+F../../../../RMSnorm.ip_user_files/bd/RMSnormv2/ip/RMSnormv2_rms_norm_top_0_0/sim/RMSnormv2_rms_norm_top_0_0.v
+!i122 3
+R62
+R6
+r1
+!s85 0
+31
+R15
+R21
+R22
+!i113 1
+R10
+R11
+n@r@m@snormv2_rms_norm_top_0_0
+vRMSnormv2_rms_sum_topv2_0_0
+R18
+R14
+!i10b 1
+!s100 FW<7bg9ledZCSnVHCR0Fc2
+R3
+IiZ8em10G8TRX<5e:WPjQ]0
+R4
+R0
+R19
+8../../../../RMSnorm.ip_user_files/bd/RMSnormv2/ip/RMSnormv2_rms_sum_topv2_0_0/sim/RMSnormv2_rms_sum_topv2_0_0.v
+F../../../../RMSnorm.ip_user_files/bd/RMSnormv2/ip/RMSnormv2_rms_sum_topv2_0_0/sim/RMSnormv2_rms_sum_topv2_0_0.v
+!i122 3
+R62
+R6
+r1
+!s85 0
+31
+R15
+R21
+R22
+!i113 1
+R10
+R11
+n@r@m@snormv2_rms_sum_topv2_0_0
+vRMSnormv2_wrapper
+R18
+R14
+!i10b 1
+!s100 =iTLXSR9gL?j0`zgTl8V22
+R3
+I>LdW>zR:[hYOl5czNPV240
+R4
+R0
+R19
+8../../../../RMSnorm.gen/sources_1/bd/RMSnormv2/hdl/RMSnormv2_wrapper.v
+F../../../../RMSnorm.gen/sources_1/bd/RMSnormv2/hdl/RMSnormv2_wrapper.v
+!i122 3
+R63
+R6
+r1
+!s85 0
+31
+R15
+R21
+R22
+!i113 1
+R10
+R11
+n@r@m@snormv2_wrapper
+vsquaresum_acc
+R1
+R14
+!i10b 1
+!s100 k?WYOz`?bf@9BMd<0ZEjX1
+R3
+IcMS]?5@T0_Z_?iVQUVc>A0
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/squaresum_acc.v
+F../../../../RMSnorm.srcs/sources_1/new/squaresum_acc.v
+!i122 1
+L0 23 70
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+R11
+vsum_align
+!s10a 1761835272
+!s110 1761835324
+!i10b 1
+!s100 7@WZNI9Q51EBo0?3MjIVN2
+R3
+IK56WY]3;aWYJZHNj@e`zA0
+R4
+R0
+w1761835272
+8../../../../RMSnorm.srcs/sources_1/new/sum_align.v
+F../../../../RMSnorm.srcs/sources_1/new/sum_align.v
+!i122 57
+L0 22 47
+R6
+r1
+!s85 0
+31
+!s108 1761835324.000000
+R16
+R17
+!i113 1
+R10
+R11
+vsum_keep
+R1
+R14
+!i10b 1
+!s100 A`KF]e<?i?_6aQKQWHQho0
+R3
+IG]>4KROOzDkGMG]09[1NR3
+R4
+R0
+R5
+8../../../../RMSnorm.srcs/sources_1/new/sum_keep.v
+F../../../../RMSnorm.srcs/sources_1/new/sum_keep.v
+!i122 1
+L0 23 65
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+R11

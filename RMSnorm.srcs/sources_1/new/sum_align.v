@@ -32,13 +32,13 @@ module sum_align(
     input M_AXIS_TREADY
     );
 
-    localparam depth = 155 ;
+    localparam depth = 154 ;
 
     reg [ depth - 1 : 0 ] m_axis_tvalid;
 
     always @(posedge aclk or negedge arstn) begin
         if(!arstn) begin
-            m_axis_tvalid <= 155'b0;
+            m_axis_tvalid <= 154'b0;
         end
 
         else if(S_AXIS_TREADY & S_AXIS_TVALID) begin
